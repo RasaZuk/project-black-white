@@ -49,9 +49,9 @@ hearder div {
 
 .hello {
    background-color: rgb(245, 245, 247);
-   width: 35rem;
+   width: 40rem;
    height: 8.2rem;
-   margin: 1.5rem 2rem 1rem 3rem;
+   margin: 1.5rem 2rem 1rem 5rem;
    border-radius: 1rem;
    padding: 1.7rem 0 0 2rem;
    position: relative;
@@ -62,4 +62,118 @@ hearder div {
     position: absolute;
     top: -2.3rem;
     left: 15rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 1.5rem 2rem 1rem 3rem;
+    align-items: center;
+    
+}
+
+button {
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    margin-right: 3rem;
+    border-radius: 5px;
+    
+}
+
+.icons :first-child {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+.icons img {
+    margin-left: 2rem;
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 1.5rem 2rem 1rem 3rem;
+}
+
+.courses div {
+    display: flex;
+    align-items: center;
+    width: 11rem;
+    background-color: rgb(245, 245, 247);
+    border-radius: 0.5rem;
+}
+.courses span {
+    font-size: 2.5rem;
+    padding: 0.8rem;
+    font-weight: 700;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 2rem 1rem 3rem;
+    align-items: center;
+}
+.intro  div {
+    display: flex;
+    width: 35rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(245, 245, 247);
+    
+
+}
+
+.intro img:first-child {
+    padding: 0.9rem;
+    margin: 0.4rem 1.5rem 0.4rem 0.4rem;
+    background-color: white;
+    border-radius: 0.5rem;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col span {
+    font-weight: 700;
+}
+.intro div button {
+    color: white;
+    background-color: black;
+    margin: 1rem 1rem 1rem 2rem;
+}
+.intro svg {
+    margin-left: 1rem;
+}
+
+.left h3 {
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+.left nav {
+   margin: 1rem 0 0 5rem; 
+}
+
+
+.left nav a{
+    text-decoration: none;
+    color: rgb(181, 181, 181);
+    margin-right: 2rem;
+}
+.left nav a:first-child {
+    color: black;
+    font-weight: 700;
 }
