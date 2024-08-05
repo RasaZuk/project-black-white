@@ -65,7 +65,7 @@ aside div:last-child {
 .intro {
     display: flex;
     flex-direction: row;
-    margin: 1.5rem 0 0;
+    margin-top: 1.5rem;
     align-items: center;
 }
 .intro div {
@@ -101,6 +101,7 @@ aside div:last-child {
     background-color: black;
     margin: 1rem 1rem 1rem 2rem;
 }
+
 .intro svg {
     margin-left: 1rem;
 }
